@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Profile</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="profile">
-        <div class="profile-picture">
-            <img src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg" alt="Profile Picture">
-        </div>
-        <div class="profile-details">
-            <h1>Kevin Al Doe</h1>
-            <p>Position: Web Developer</p>
-            <p>Email: kevin.doe@example.com</p>
-            <p>Phone: +62 234 567 890</p>
-            <p>About Me: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget velit felis.</p>
-        </div>
+    <div class="profile-container">
+        <header class="profile-header">
+            <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>John Doe</h1>
+            <p>Web Developer & Designer</p>
+        </header>
+        <section class="profile-about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ex vehicula, vestibulum leo in, lacinia lorem. Donec euismod, nisi vel congue placerat, augue felis ultricies eros, nec aliquam risus orci ut libero.</p>
+        </section>
+        <section class="profile-contact">
+            <h2>Contact</h2>
+            <p>Email: johndoe@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
     </div>
+    <footer class="profile-footer">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
 
 <style>
     body {
